@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: azure;
+    background-color: black;
+}
+
+
+#rightContent{
+    background-color: rgba(128,128,128, 0.2) ;
+    height: 2000px;
+    width: 70vw;
+    position: absolute;
+    right: 0px;
+    margin: 10px 10px 50px 10px;
+    border-radius: 10px;
+
+}
+
+
+
+
+h1{
+    background-color:  transparent;
+    margin: 50px 0px 0px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 550;
+}
+
+#suggestionsList{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 220px;
+    width: 1065px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: white solid 5px; */
+   
+    
+}
+.suggestions{
+    height: 85px;
+    width: 330px;
+    background-color: rgba(128,128,128,0.1);
+    border: 0px;
+    display: inline-block;
+    padding: 0px;
+    display: flex;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    
+
+}
+
+.suggestions:hover{
+    background-color: rgba(128,128,128,0.3);
+}
+
+.suggText{
+    display: inline;
+    align-self: center;
+    background-color:transparent;
+    margin-left: 10px;
+    font-size: 17px;
+
+}
+
+.suggImage{
+    align-self: center;
+    display: inline-block;
+    border-radius: 5%;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+   
+
+}
+a:hover{
+    text-decoration:underline;
+}
+
+h2{
+    background-color: transparent;
+    margin: 20px 0px 0px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 550;
+}
+
+
+#madeForYouList{
+    height: 290px;
+    width: 1065px;
+    background-color: transparent;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: white solid 5px; */
+}
+
+
+
+.dailyMix{
+    background-color: transparent;
+    height: 280px;
+    width: 185px;
+    background-color: rgba(128,128,128,0.1);
+    border: 0;
+    display: inline-block;
+    border-radius: 5%;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+.dailyMix:hover{
+    background-color: rgba(128,128,128,0.3);
+}
+
+.dailyMixImage{
+   background-color: transparent;
+   display: inline-block;
+   border-radius: 10%;
+   position: relative;
+   top: -33px;
+}
+
+.dailyMixText{
+    background-color: transparent;
+    text-align: left;
+    margin-left: 13px;
+}
+
+
+#copyright{
+   
+    background-color:transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+#player{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
